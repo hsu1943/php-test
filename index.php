@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * 测试使用jwt包校验token
+ */
 require 'vendor/autoload.php';
 
 use Lcobucci\Clock\FrozenClock;
@@ -33,7 +35,7 @@ $jwt = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJZWUNfVVNFUiIsInYiOjEsImJ
 
 $a_key = 'kSUdVKL0j0JGTAIo8uY5ZNMO9nZAemg6ehgOHozK';
 
-$key = hash_hmac('sha256', )
+// $key = hash_hmac('sha256', )
 
 $key = InMemory::base64Encoded($a_key);
 
