@@ -60,3 +60,4 @@ $cn_expr = "{$num1} {$c1} {$num2} {$c2} {$num3}";
 echo "中文算式：{$cn_expr}\n";
 echo "数学计算式：{$expr}\n";
 echo "计算结果：{$result}\n";
+echo "-----------------------------------\n";
